@@ -56,7 +56,7 @@ const clothesListAdd = () => {
     mainSelector.innerHTML += `
     <div class="main__items">
         <span class="main__item--img"
-       ><img src="/images/${clothes.img}.png" alt=""
+       ><img src="images/${clothes.img}.png" alt=""
      /></span>
       <span class="main__item--gender">${clothes.gender}</span>
       <span class="main__item--division">,</span>
@@ -93,7 +93,7 @@ const changeClothes = (array) => {
     mainSelector.innerHTML += `
         <div class="main__items">
             <span class="main__item--img"
-           ><img src="/images/${clothes.img}.png" alt=""
+           ><img src="images/${clothes.img}.png" alt=""
          /></span>
           <span class="main__item--gender">${clothes.gender}</span>
           <span class="main__item--division">,</span>
